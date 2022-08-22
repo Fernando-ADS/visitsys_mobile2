@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "visitsys_mobile2",
+    "name": "VisitSys",
     "slug": "visitsys_mobile2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,10 +13,11 @@
 
 
     "userInterfaceStyle": "light",
+    
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D0ECF6"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -30,7 +31,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#D0ECF6",
+        "package": "com.visitsys"
       }
     },
     "web": {

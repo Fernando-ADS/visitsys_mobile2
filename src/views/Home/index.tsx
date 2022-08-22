@@ -46,9 +46,9 @@ export default function Home(){
 
             </Modal>
            
-            <View>
-                <Text style={css.mainText}>Type: {type}</Text>
-                <Text style={css.mainText}>Data: {data}</Text>
+           
+            <View>  
+                <Text style={css.mainText}>Dados: {data}</Text>
             </View>
 
 
